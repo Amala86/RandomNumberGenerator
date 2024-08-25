@@ -1,0 +1,53 @@
+.container {
+    width: 320px; /* Adjusted width to accommodate padding */
+    margin: auto;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    border: 1px solid #ccc; /* Light grey border */
+    background-color: #e0f7fa; /* Light blue background color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.inp-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inp {
+    width: 45%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px; /* Slightly rounded input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+}
+
+.sub-btn {
+    text-align: center;
+}
+
+.sub-btn input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.sub-btn input:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.res-container {
+    text-align: center;
+    margin-top: 20px;
+}
